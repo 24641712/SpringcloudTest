@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: service-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.95.232.150:8848
+      config:
+        server-addr: 47.95.232.150:8848
+        file-extension: yml
+
